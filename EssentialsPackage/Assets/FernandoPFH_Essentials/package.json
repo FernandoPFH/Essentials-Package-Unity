@@ -1,0 +1,12 @@
+{
+  "name": "com.fernandopfh.essentials",
+  "version": "1.0.0",
+  "displayName": "FernandoPFH - Essentials Pack",
+  "description": "Essentials pack from FernandoPFH",
+  "documentationUrl": "https://github.com/FernandoPFH/Essentials-Package-Unity#README.md",
+  "unity": "2020.3",
+  "author": {
+    "name": "FernandoPFH",
+    "url": "https://github.com/FernandoPFH/FernandoPFH"
+  }
+}

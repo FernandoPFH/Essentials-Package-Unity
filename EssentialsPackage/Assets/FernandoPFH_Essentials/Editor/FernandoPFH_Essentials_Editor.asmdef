@@ -1,0 +1,14 @@
+{
+    "name": "FernandoPFH_Essentials_Editor",
+    "rootNamespace": "FernandoPFH_Essentials_Editor",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
