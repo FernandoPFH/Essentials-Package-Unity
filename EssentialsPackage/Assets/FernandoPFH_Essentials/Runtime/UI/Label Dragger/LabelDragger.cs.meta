@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d364eade4e7a57f0b9b59c10ca0af144
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inputField: {instanceID: 0}
+  - dragCursorTexture: {fileID: 2800000, guid: d0006d51a864248adba0238883f8c71e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
