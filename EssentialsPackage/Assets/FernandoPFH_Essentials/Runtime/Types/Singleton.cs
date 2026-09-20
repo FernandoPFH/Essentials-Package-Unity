@@ -29,6 +29,9 @@ namespace FernandoPFH_Essentials_Runtime
                 }
         }
 
+        private void OnDestroy()
+            => Instance = null;
+
         enum DuplicatesApproach
         {
             KeepFirst,

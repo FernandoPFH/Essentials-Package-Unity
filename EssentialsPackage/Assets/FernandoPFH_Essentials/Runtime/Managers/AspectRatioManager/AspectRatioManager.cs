@@ -5,23 +5,25 @@ namespace FernandoPFH_Essentials_Runtime
     public class AspectRatioManager : MonoBehaviour
     {
         [SerializeField] private Vector2 targerAspectRatio = new(16f,9f);
+        [SerializeField] private bool shouldAlwaysCheck;
 
-#if UNITY_EDITOR
         private Vector2Int lastResolution;
-#endif
 
         void Start()
         {
             Adjust();
 
-#if UNITY_EDITOR
             lastResolution = new(Screen.width,Screen.height);
+#if UNITY_EDITOR
+            shouldAlwaysCheck = true;
 #endif
         }
 
-#if UNITY_EDITOR
         void Update()
         {
+            if (!shouldAlwaysCheck)
+                return;
+
             Vector2Int currentScreenSize = new(Screen.width,Screen.height);
 
             if (lastResolution != currentScreenSize) {
@@ -30,7 +32,6 @@ namespace FernandoPFH_Essentials_Runtime
                 lastResolution = currentScreenSize;
             }
         }
-#endif
 
         public void Adjust()
         {

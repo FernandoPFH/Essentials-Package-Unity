@@ -8,7 +8,7 @@
 4. Select Install package from git URL from the install menu. A text box and an Install button appear.
 5. Enter the Git URL bellow in the text box
 ```
-https://github.com/FernandoPFH/Essentials-Package-Unity.git?path=ShadersLab/Assets/FernandoPFH_Essentials
+https://github.com/FernandoPFH/Essentials-Package-Unity.git?path=EssentialsPackage/Assets/FernandoPFH_Essentials
 ```
 6. All files will be in the folder `Packages/FernandoPFH_Essentials`
 
@@ -20,6 +20,6 @@ https://github.com/FernandoPFH/Essentials-Package-Unity.git?path=ShadersLab/Asse
 4. Selecione Install package from git URL (Instalar pacote a partir da URL do git) no menu de instalação. Uma caixa de texto e um botão Install (Instalar) aparecem.
 5. Insira a URL do Git abaixo na caixa de texto.
 ```
-https://github.com/FernandoPFH/Essentials-Package-Unity.git?path=ShadersLab/Assets/FernandoPFH_Essentials
+https://github.com/FernandoPFH/Essentials-Package-Unity.git?path=EssentialsPackage/Assets/FernandoPFH_Essentials
 ```
 6. Todos os arquivos estarão na pasta `Packages/FernandoPFH_Essentials`

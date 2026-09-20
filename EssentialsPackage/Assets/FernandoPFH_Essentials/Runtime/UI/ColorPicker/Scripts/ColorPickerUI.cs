@@ -21,14 +21,15 @@ namespace FernandoPFH_Essentials_Runtime
         {
             SetColor(color);
             ToggleHDRLabel(isHDR);
+            colorPreview.material = new Material(colorPreview.material);
         }
 
         public void SetColor(Color color)
         {
             this.color = color;
             color.DecomposeHdrColor(out Color baseLinearColor, out float intensity);
-            colorPreview.material.SetColor("_Color", baseLinearColor.OpaqueColor());
-            colorPreview.material.SetFloat("_Intensity", intensity);
+            colorPreview.color = baseLinearColor.OpaqueColor();
+            colorPreview.materialForRendering.SetFloat("_Intensity", intensity);
             alphaPreview.color = Color.white.MultiplyOpaqueColor(color.a);
         }
 
